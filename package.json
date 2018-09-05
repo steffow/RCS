@@ -1,0 +1,24 @@
+{
+  "name": "rcs",
+  "version": "0.0.1",
+  "description": "Sample Remote Consent Service for OpenAM",
+  "main": "jwktest.js",
+  "scripts": {
+    "start": "node jwktest.js",
+    "api" : "node api.js"
+  },
+  "author": "steffoweber",
+  "license": "ISC",
+  "dependencies" :
+    { "bluebird" : "latest",
+      "jwk-to-pem" : "latest",
+      "lodash" : "latest",
+      "njwt" : "latest",
+      "jsonwebtoken" : "8.3.0",
+      "express" : "latest",
+      "fs" : "latest",
+      "url" : "latest",
+      "jwks-rsa": "latest"
+    }
+}
+					
