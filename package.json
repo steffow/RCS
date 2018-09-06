@@ -18,7 +18,8 @@
       "express" : "latest",
       "fs" : "latest",
       "url" : "latest",
-      "jwks-rsa": "latest"
+      "jwks-rsa": "latest",
+      "body-parser": "latest"
     }
 }
 					
