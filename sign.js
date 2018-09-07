@@ -99,5 +99,6 @@ exports.decode = function (encjwt) {
 }
 
 exports.getJWK = function () {
+    // We return the full KeySet incl privKey. Change that for prod.
     return myJSONKeySet
 }
